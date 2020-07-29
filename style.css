@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300;700;900&display=swap");
+
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  background-color: #0fadca;
+  padding: 7.5px;
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: 0.4s
+}
+
+.container:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card  {
+  background: white;                         /* White background */
+  padding: 5px;                             /* Internal space */
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.img-circle:hover {
+  transform: rotate(360deg);
+}
+
+#logo {
+  width: 200px;
+}
+
+h1 {
+  font-family: Recursive;
+  font-weight: 800;
+  font-style: bold;
+  color: black;
+  margin-left: px;
+  text-decoration: underline;
+  text-decoration-color: 0fadca;
+}
+
+h2 {
+  font-family: Recursive;
+  font-weight: 600;
+  font-style: bold;
+  color: black;
+  margin-left: px;
+}
+
+h3 {
+  font-family: Recursive;
+  font-weight: 600;
+  font-style: bold;
+  color: #0fadca;
+  margin-left: px;
+  text-decoration: ;
+}
+
+p {
+  font-family: Recursive;
+  font-weight: 200;
+  font-style: bold;
+  color: black;
+  margin-left: px;
+}
+
+a {
+  font-family: Recursive;
+  font-weight: 200;
+  font-style: bold;
+  color: black;
+}
+
+a:hover {
+  background-color: #0fadca;
+  border: 1px solid white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
